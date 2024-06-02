@@ -5,7 +5,7 @@ This project demonstrates how to implement Discord authentication in a Next.js a
 ## Features
 
 - Discord OAuth2 login
-- Display user profile information including avatar, username
+- Display user profile information including avatar, banner, username, id
 - Logout functionality
 - Responsive design with Tailwind CSS
 
