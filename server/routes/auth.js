@@ -9,7 +9,7 @@ router.use(session({
   secret: 'your_secret',
   resave: false,
   saveUninitialized: false,
-  cookie: { secure: false } // Use secure: true in production
+  cookie: { secure: false }
 }));
 router.use(passport.initialize());
 router.use(passport.session());
